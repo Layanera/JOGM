@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="JOGM" />
         <module name="JOGM+" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JOGM+" target="1.5" />
+      <module name="JOGM" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
